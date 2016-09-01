@@ -1,7 +1,11 @@
 /**********************************
 GENERAL
 ***********************************/
- 
+
+* {
+    box-sizing: border-box;
+}
+
 body {
 	font-family: Arial, sans-serif;
 }
@@ -83,6 +87,36 @@ nav a {
 	padding: 15px 10px;
 
 }
+
+/**********************************
+index.html : COLUMNS
+***********************************/
+
+.preview-wrapper {
+	width: 100%;
+}
+
+.col {
+	position: relative;
+	float: left;
+	padding: 5px;
+	border: 1px solid #d9e4ea;
+}
+
+.preview-wrapper img {
+	width: 100%;
+}
+
+.play-btn {
+	display: inline-block;
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	background: 50% 50% url('../img/embed_play_button.png') no-repeat / 15%;
+}
+
 
 
 /**********************************

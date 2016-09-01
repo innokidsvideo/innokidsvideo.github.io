@@ -1,7 +1,6 @@
 @media screen and (min-width: 480px) {
 	
 
-
 	/**********************************
 	MOBILE-2
 	***********************************/
@@ -25,7 +24,25 @@
 
 @media screen and (min-width: 660px) {
 		
+	/**********************************
+	index.html : COLUMNS
+	***********************************/
+	.preview-wrapper {
+		width: 100%;
+		margin: 0 auto;
+		max-width: 1000px;
+	}
 
+	.col {
+		float: left;
+		width: 49%;
+		margin-bottom: 10px;
+		background-image: url('https://static.extcam.com/assets/build/iv-c11n/b62b487b201d2672a7ca/ivideon/img/embed_play_button.png') no-repeat;
+	}
+
+	.col:nth-child(2n+1) {
+		margin-right: 2%;
+	}
 
 	/**********************************
 	DESKTOP
